@@ -12,13 +12,13 @@ https://github.com/academind/react-native-practical-guide-code/tree/11-auth/code
 
 ![p](https://github.com/bell-kevin/registrationDatabaseUserAuthentication/blob/main/15380ae0-876f-4870-8fed-9bb004f59e1a.png)
 
-![p](https://github.com/bell-kevin/registrationDatabaseUserAuthentication/blob/main/screenshots/1.PNG)
+![p](https://github.com/bell-kevin/registrationDatabaseUserAuthenticationImproved/blob/main/screenshots/RegiAuth_01.png)
 
-![p](https://github.com/bell-kevin/registrationDatabaseUserAuthentication/blob/main/screenshots/2.PNG)
+![p](https://github.com/bell-kevin/registrationDatabaseUserAuthenticationImproved/blob/main/screenshots/RegiAuth_02.png)
 
-![p](https://github.com/bell-kevin/registrationDatabaseUserAuthentication/blob/main/screenshots/3.PNG)
+![p](https://github.com/bell-kevin/registrationDatabaseUserAuthenticationImproved/blob/main/screenshots/RegiAuth_03.png)
 
-![p](https://github.com/bell-kevin/registrationDatabaseUserAuthentication/blob/main/screenshots/4.PNG)
+![p](https://github.com/bell-kevin/registrationDatabaseUserAuthenticationImproved/blob/main/screenshots/RegiAuth_04.png)
 
 ## How to:
 
