@@ -1,20 +1,19 @@
 import { useContext } from 'react';
 import { View, Text, Button } from 'react-native';
-
 import { screens } from '../constants/Style';
 import { AuthContext } from '../context/authContext';
 import { UserContext } from '../context/userContext';
 
-function WelcomeScreen() {
+function WelcomeScreen({ navigation }) {
   const authCtx = useContext(AuthContext);
   const userCtx = useContext(UserContext);
 
   function logoutHandler() {
-    authCtx.logout
-
+    authCtx.logout();
     userCtx.changeFirstName("");
     userCtx.changeLastName("");
     userCtx.changePhone("");
+    navigation.navigate('Login'); // navigate to the login screen
   }
 
   return (
