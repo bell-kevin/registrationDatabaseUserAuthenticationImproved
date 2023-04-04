@@ -13,7 +13,6 @@ function WelcomeScreen({ navigation }) {
     userCtx.changeFirstName("");
     userCtx.changeLastName("");
     userCtx.changePhone("");
-    navigation.navigate('Login'); // navigate to the login screen
   }
 
   return (
