@@ -42,6 +42,7 @@ function DataStack() {
       <Stack.Screen name="Name" component={NameScreen} />
       <Stack.Screen name="Phone" component={PhoneScreen} />
       <Stack.Screen name="Validate" component={ValidateScreen} />
+      <Stack.Screen name="Welcome" component={WelcomeScreen} />
     </Stack.Navigator>
   );
 }
