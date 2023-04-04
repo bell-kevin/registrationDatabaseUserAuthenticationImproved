@@ -51,7 +51,7 @@ function SignupScreen() {
       try {
         const token = await createUser(email, password);
         authCtx.authenticate(token);
-        navigation.navigate('Home');
+        navigation.navigate('Name');
       } catch (error) {
         Alert.alert(
           'Authentication failed!',
