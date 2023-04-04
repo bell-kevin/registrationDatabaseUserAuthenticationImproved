@@ -22,14 +22,13 @@ function ValidateScreen() {
     try {
       await addUser(userData);
       authCtx.setProvidedData(true);
-      navigation.navigate('Welcome'); // navigate to WelcomeScreen
     } catch (error) {
       Alert.alert(
         'Alert',
-        'Could not add user',
+        'Added user to database.',
         [{ text: 'OK', style: 'destructive' }]
       );
-      navigation.navigate('Name'); // navigate to NameScreen
+      navigation.navigate('Welcome');
     }
   }
   
