@@ -9,7 +9,6 @@ import { AuthContext } from './context/authContext';
 import LoginScreen from './screens/LoginScreen';
 import SignupScreen from './screens/SignupScreen';
 import WelcomeScreen from './screens/WelcomeScreen';
-import HomeScreen from './screens/HomeScreen';
 import NameScreen from './screens/NameScreen';
 import PhoneScreen from './screens/PhoneScreen';
 import ValidateScreen from './screens/ValidateScreen';
@@ -40,7 +39,6 @@ function DataStack() {
         headerTitleStyle: { fontWeight: 'bold' },
       }}
     >
-      <Stack.Screen name="Home" component={HomeScreen} />
       <Stack.Screen name="Name" component={NameScreen} />
       <Stack.Screen name="Phone" component={PhoneScreen} />
       <Stack.Screen name="Validate" component={ValidateScreen} />
