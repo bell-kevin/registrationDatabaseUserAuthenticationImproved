@@ -10,8 +10,8 @@ function PhoneScreen() {
 
   // Set universal colors
   const colors = {
-    backgroundColor: 'pink',
-    color: 'fuchsia',
+    backgroundColor: 'lightyellow',
+    color: 'darkgoldenrod',
   };
 
   const userCtx = useContext(UserContext);
