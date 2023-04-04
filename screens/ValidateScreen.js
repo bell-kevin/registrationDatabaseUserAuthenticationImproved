@@ -22,25 +22,26 @@ function ValidateScreen() {
     try {
       await addUser(userData);
       authCtx.setProvidedData(true);
-      navigation.navigate('Welcome');
+      navigation.navigate('Welcome'); // navigate to WelcomeScreen
     } catch (error) {
       Alert.alert(
         'Alert',
         'Could not add user',
         [{ text: 'OK', style: 'destructive' }]
       );
-      navigation.navigate('Home');
+      navigation.navigate('Name'); // navigate to NameScreen
     }
   }
-  // Create an alert and don't add user
+  
   function noPressHandler() {
     Alert.alert(
       'Alert',
       'Okay, you can enter info again.',
       [{ text: 'OK', style: 'destructive' }]
     );
-    navigation.navigate('Home');
+    navigation.navigate('Name'); // navigate to NameScreen
   }
+  
 
   return (
     <View style={styles.container}>
