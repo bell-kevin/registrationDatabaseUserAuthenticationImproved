@@ -13,24 +13,35 @@ function ValidateScreen() {
   const authCtx = useContext(AuthContext);
 
   // Add user to database and go back to home screen on button press
-  async function yesPressHandler() {
+   function yesPressHandler() {
+    console.log('Yes press handler');
+    // navigation.navigate('Welcome');
     userData = {
       firstName: userCtx.user.firstName,
       lastName: userCtx.user.lastName,
       phone: userCtx.user.phone,
     };
     try {
-      await addUser(userData);
+      console.log('Yes try block');
+      console.log(userData);
+      const kevin = addUser(userData);
+      console.log(userData);
+      console.log(kevin);
+      console.log('Yes try block after await');
       authCtx.setProvidedData(true);
+      console.log('Yes try block after setProvidedData');
+      navigation.navigate('Welcome');
     } catch (error) {
       Alert.alert(
         'Alert',
-        'Added user to database.',
+        'Did not add user to database. Just kidding',
         [{ text: 'OK', style: 'destructive' }]
       );
+      // navigation.navigate('Name');
       navigation.navigate('Welcome');
     }
   }
+  
   
   function noPressHandler() {
     Alert.alert(
