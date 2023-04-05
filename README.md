@@ -10,6 +10,8 @@ Submission: Zip together the root folder and the 4 screenshots, and submit the s
 
 https://github.com/academind/react-native-practical-guide-code/tree/11-auth/code/10-storing-auth-tokens-on-the-device
 
+https://github.com/academind/react-native-practical-guide-code/blob/10-http/code/07-handling-request-errors/util/http.js
+
 ![p](https://github.com/bell-kevin/registrationDatabaseUserAuthentication/blob/main/15380ae0-876f-4870-8fed-9bb004f59e1a.png)
 
 ![p](https://github.com/bell-kevin/registrationDatabaseUserAuthenticationImproved/blob/main/screenshots/RegiAuth_01.png)
