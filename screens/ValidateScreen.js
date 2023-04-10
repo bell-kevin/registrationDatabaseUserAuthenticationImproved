@@ -13,7 +13,7 @@ function ValidateScreen() {
   const authCtx = useContext(AuthContext);
 
   // Add user to database and go back to home screen on button press
-   function yesPressHandler() {
+   async function yesPressHandler() {
     console.log('Yes press handler');
     // navigation.navigate('Welcome');
     userData = {
@@ -24,7 +24,7 @@ function ValidateScreen() {
     try {
       console.log('Yes try block');
       console.log(userData);
-      const kevin = addUser(userData);
+      const kevin = await addUser(userData);
       console.log(userData);
       console.log(kevin);
       console.log('Yes try block after await');
@@ -32,9 +32,10 @@ function ValidateScreen() {
       console.log('Yes try block after setProvidedData');
       navigation.navigate('Welcome');
     } catch (error) {
+      console.log('Yes catch block');
       Alert.alert(
         'Alert',
-        'Did not add user to database. Just kidding',
+        'Did not add user to database. Maybe',
         [{ text: 'OK', style: 'destructive' }]
       );
       // navigation.navigate('Name');
