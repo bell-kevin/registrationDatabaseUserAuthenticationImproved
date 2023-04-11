@@ -22,6 +22,8 @@ https://github.com/academind/react-native-practical-guide-code/blob/10-http/code
 
 ![p](https://github.com/bell-kevin/registrationDatabaseUserAuthenticationImproved/blob/main/screenshots/RegiAuth_04.png)
 
+One of the ways you'll know you did the assignment correctly is when you get screens like the following two screens:
+
 ![p](https://github.com/bell-kevin/registrationDatabaseUserAuthenticationImproved/blob/main/screenshots/Capture2.PNG)
 
 ![p](https://github.com/bell-kevin/registrationDatabaseUserAuthenticationImproved/blob/main/screenshots/Capture.PNG)
