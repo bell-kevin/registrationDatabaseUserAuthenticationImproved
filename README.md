@@ -22,6 +22,10 @@ https://github.com/academind/react-native-practical-guide-code/blob/10-http/code
 
 ![p](https://github.com/bell-kevin/registrationDatabaseUserAuthenticationImproved/blob/main/screenshots/RegiAuth_04.png)
 
+![p](https://github.com/bell-kevin/registrationDatabaseUserAuthenticationImproved/blob/main/screenshots/Capture2.PNG)
+
+![p](https://github.com/bell-kevin/registrationDatabaseUserAuthenticationImproved/blob/main/screenshots/Capture.PNG)
+
 ## How to:
 
 Create one app. for both Android and iOS (Apple) using one computer alorithm for both apps. You'll need Visual Studio Code and Android Studio to get started:
