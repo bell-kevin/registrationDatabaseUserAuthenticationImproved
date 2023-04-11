@@ -14,6 +14,26 @@ https://github.com/academind/react-native-practical-guide-code/blob/10-http/code
 
 ![p](https://github.com/bell-kevin/registrationDatabaseUserAuthentication/blob/main/15380ae0-876f-4870-8fed-9bb004f59e1a.png)
 
+![p](https://github.com/bell-kevin/registrationDatabaseUserAuthenticationImproved/blob/main/screenshots/1.PNG)
+
+![p](https://github.com/bell-kevin/registrationDatabaseUserAuthenticationImproved/blob/main/screenshots/2.PNG)
+
+![p](https://github.com/bell-kevin/registrationDatabaseUserAuthenticationImproved/blob/main/screenshots/3.PNG)
+
+![p](https://github.com/bell-kevin/registrationDatabaseUserAuthenticationImproved/blob/main/screenshots/4.PNG)
+
+![p](https://github.com/bell-kevin/registrationDatabaseUserAuthenticationImproved/blob/main/screenshots/5.PNG)
+
+![p](https://github.com/bell-kevin/registrationDatabaseUserAuthenticationImproved/blob/main/screenshots/6.PNG)
+
+![p](https://github.com/bell-kevin/registrationDatabaseUserAuthenticationImproved/blob/main/screenshots/7.PNG)
+
+![p](https://github.com/bell-kevin/registrationDatabaseUserAuthenticationImproved/blob/main/screenshots/8.PNG)
+
+![p](https://github.com/bell-kevin/registrationDatabaseUserAuthenticationImproved/blob/main/screenshots/9.PNG)
+
+![p](https://github.com/bell-kevin/registrationDatabaseUserAuthenticationImproved/blob/main/screenshots/10.PNG)
+
 One of the ways you'll know you did the assignment correctly is when you get screens like the following two screens:
 
 ![p](https://github.com/bell-kevin/registrationDatabaseUserAuthenticationImproved/blob/main/screenshots/Capture2.PNG)
