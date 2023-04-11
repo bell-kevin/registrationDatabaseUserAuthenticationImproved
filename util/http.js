@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BACKEND_URL = 'https://react-native-course-bef50-default-rtdb.firebaseio.com/';
+const BACKEND_URL = 'https://userinfo-5bc27-default-rtdb.firebaseio.com/';
 
 export async function addUser(userData) {
   console.log('entered addUser function');
