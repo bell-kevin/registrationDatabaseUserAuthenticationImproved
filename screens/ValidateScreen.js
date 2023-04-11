@@ -34,6 +34,10 @@ function ValidateScreen() {
     } catch (error) {
       console.log('Yes catch block');
       console.log(error);
+      console.log(error.message);
+      console.log(error.response);
+      console.log(error.response.data);
+      console.log(error.response.data.error);
       Alert.alert(
         'Alert',
         'Did not add user to database. Maybe',
