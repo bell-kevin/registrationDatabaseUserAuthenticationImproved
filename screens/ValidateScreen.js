@@ -24,15 +24,16 @@ function ValidateScreen() {
     try {
       console.log('Yes try block');
       console.log(userData);
-      const kevin = await addUser(userData);
+      const reply = await addUser(userData);
       console.log(userData);
-      console.log(kevin);
+      console.log(reply);
       console.log('Yes try block after await');
       authCtx.setProvidedData(true);
       console.log('Yes try block after setProvidedData');
       navigation.navigate('Welcome');
     } catch (error) {
       console.log('Yes catch block');
+      console.log(error);
       Alert.alert(
         'Alert',
         'Did not add user to database. Maybe',
