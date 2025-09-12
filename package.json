@@ -25,7 +25,10 @@
   },
   "overrides": {
     "semver": "^7.5.4",
-    "@expo/image-utils>semver": "^7.5.4"
+    "@expo/image-utils": {
+      "semver": "^7.5.4"
+    },
+    "webpack-dev-server": "^5.2.1"
   },
   "private": true
 }
